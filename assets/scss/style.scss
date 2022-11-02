@@ -1,0 +1,245 @@
+.title {
+    font-size: 36px;
+    font-weight: 700;
+}
+.subtitle {
+    font-size: 19px;
+    font-weight: 700;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #f1be18;
+    border-color: #f1be18;
+    font-weight: 700;
+    padding: 6px 31px;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #818181;
+}
+.navbar {
+    width: 100%;
+    background: #000000;
+
+    .navbar-nav{
+        a {
+            color: rgb(255, 255, 255);
+            font-weight: 600;  
+        }
+        a:hover{
+            color: #f1be18;
+            border-bottom: 2px solid;
+        }
+    }
+}
+.tasty_food{
+    background-image: url("../images/bg1.png");
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    .food{
+        padding: 23rem 0;
+
+        p {
+            padding: 0 136px 0 0;
+            color: #727272;
+           
+        }
+    }
+   
+}
+.prime_food{
+    padding: 35px 0;
+    p{
+        margin: 15px;
+        padding: 18px 8%;
+        line-height: 2;
+    }
+    .pfood{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        padding: 9px 7px;
+        text-align: center;
+        .fa{
+            font-size: 27px;
+            background: #FFEFD3;
+            padding: 40PX;
+            border-radius: 53px;
+            margin: 13px 0;
+            color: #FFC300;
+        }
+       
+    }
+}
+
+.services{
+    background: #E5FFFC;
+    padding: 35px 0;
+    .service_tab {
+        padding: 18px 25px;
+        text-align: center;
+        border: 2px solid #cccc;
+        border-radius: 22px;
+        margin: 10px 0;
+    }
+        img {
+            padding: 31px 0;
+        }
+        p {
+            padding: 0 86px;
+        }
+    }
+    p {
+
+    line-height: 2;
+    }
+
+
+.healthy_food{
+    background-image: url("../images/bg2.png");
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    .title {
+        color: #fff;
+        padding-top: 13%;
+        text-align: center;
+    }
+    .fresh {
+        padding: 5% 0;
+       
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            color: #fff;
+            padding: 3% 23%;
+            line-height: 2;
+        }
+    }
+}
+.special_food{
+    padding: 5% 0;
+    .special{
+        padding: 13% 0;
+        p {
+            padding: 17px 0;
+            border-bottom: 2px solid #f1be18;
+        }
+    }
+    .carousel {
+        img{
+            width: 100%;
+            padding: 20px;
+        }
+    }
+    ul.breadcrumb {
+        padding: 10px 16px;
+        list-style: none;
+        background-color: #eee;
+      }
+      ul.breadcrumb li {
+        display: inline;
+        font-size: 18px;
+        :before {
+            padding: 8px;
+            color: black;
+            content: "/\00a0";
+          }
+      }
+      ul.breadcrumb li a {
+        color: #0275d8;
+        text-decoration: none;
+        :hover {
+            color: #01447e;
+            text-decoration: underline;
+          }
+      }
+
+
+      .botton {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        button.carousel-control {
+            color: #000;
+            border: 1px solid #000;
+            padding: 5px 11px;
+            border-radius: 80px;
+        }
+    }
+}
+
+.special_recipes{
+    background-image: url("../images/bg3.png");
+    height: auto;
+    background-repeat: no-repeat;
+    padding: 4% 0;
+    background-size: cover; 
+    .title {
+        padding-bottom: 2%;
+        color: #fff;
+    }
+    .order_list {
+        background: #F6F6F6;
+        margin: 15px 0;
+        .recipes {
+            padding: 21% 0;
+            h5 {
+                margin: 21px 0;
+            }
+        }
+    }
+}
+.delivery_process{
+    padding: 4% 0;
+    .title {
+        padding-bottom: 1%;
+    }
+    .process_step{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 15px;
+        padding: 25px 7px;
+        text-align: center;
+        margin: 14px 0;
+    }
+}
+
+.ranking{
+    
+    background-image: url("../images/bg4.png");
+    height: auto;
+    background-repeat: no-repeat;
+    padding: 4% 0;
+    background-size: cover; 
+    .title {
+        color: #fff;
+    }
+
+    .rank_slide {
+        padding: 10% 0;
+        text-align: center;
+        color: #fff;
+        p{
+            color: #fff;
+        }
+    }
+}
+
+.footer{
+    background: #000;
+    padding: 19px 0 0 0;
+    ul{
+        list-style: none;
+    }
+    .fa {
+        font-size: 19px;
+    background: #f1be18;
+    color: #fff;
+    border-radius: 44px;
+    margin: 0 8px;
+    height: 38px;
+    width: 38px;
+    padding: 10px 12px;
+    }
+}
